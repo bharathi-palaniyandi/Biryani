@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <!-- navbar -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+    <div class="container-fluid">
+      <a class="navbar-brand text-capitalize fs-2 fw-bold fst-italic text-white " href="#"> raj biryanis</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="c1" style="background-color: antiquewhite;">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active fs-5 ms-4" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fs-5  ms-4 text-capitalize " aria-current="page" href="./popular.html">popular
+                biryanis</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fs-5  ms-4 text-capitalize" aria-current="page" href="./about.html">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fs-5  ms-4 text-capitalize" aria-current="page"
+                href="./location.html">location</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fs-5  ms-4 text-capitalize" aria-current="page"
+                href="./contact.html">contact</a>
+            </li>
+          </ul>
+        </div>
+        <form class="d-flex">
+          <input class="form-control ms-3" type="search" placeholder="Search" aria-label="Search"
+            style="margin-left: 100px;">
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- carousel -->
+
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner swiper slide">
+      <div class="carousel-item active c-item ">
+        <img src="./image/bg4.jpg" class="d-block w-100 c-img" alt="...">
+        <div class="carousel-caption top-0 mt-5 ">
+          <h1 class="mt-5 text-capitalize fw-bold text-white ">fresh biryani every time</h1>
+          <p class="fs-5 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, ex recusandae quibusdam
+            quod voluptatibus quisquam.</p>
+          <a href="./order.html" class="btn btn-primary mt-3 btn-lg">order now</a>
+        </div>
+      </div>
+      <div class="carousel-item c-item ">
+        <img src="./image/bg1.jpeg" height="560px" class="d-block w-100 c-img" alt="...">
+        <div class="carousel-caption top-0 mt-5 ">
+          <h1 class="mt-5 text-capitalize fw-bold text-white ">fresh biryani every time</h1>
+          <p class="fs-5 mt-3 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, ex recusandae
+            quibusdam quod voluptatibus quisquam.</p>
+          <a href="./order.html" class="btn btn-primary mt-3 btn-lg">order now</a>
+        </div>
+      </div>
+      <div class="carousel-item c-item ">
+        <img src="./image/bg6.jpg" class="d-block w-100 c-img" alt="...">
+        <div class="carousel-caption top-0 mt-5 ">
+          <h1 class="mt-5 text-capitalize fw-bold text-white ">fresh biryani every time</h1>
+          <p class="fs-5 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, ex recusandae quibusdam
+            quod voluptatibus quisquam.</p>
+          <a href="./order.html" class="btn btn-primary mt-3 btn-lg">order now</a>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- product -->
+
+  <div class="container pt-5 justify-content-center">
+    <p class="h2 fs-2 text-uppercase text-center  fst-italic">popular biryanis</p>
+    <div class="row">
+      <div class="col d-flex justify-content-center ">
+        <div class="card mb-4 mt-3 " style="width: 20rem;">
+          <img src="./image/chicken-leg-piece-biryani.webp" height="250px" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title fw-bold text-capitalize">chicken biryani with leg pices </h5>
+            <p class="card-text"> <i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star"
+                style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i
+                class="fa-solid fa-star" style="color: #FFD43B;"></i> <i class="fa-solid fa-star-half"
+                style="color: #FFD43B;"></i></p>
+            <span class="price  ms-3 ">₹249.00</span>
+            <a href="./order.html" class="btn btn-dark ms-5  text-capitalize btn-rounded fw-bold">order now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col  d-flex justify-content-center">
+        <div class="card mb-4 mt-3 " style="width: 20rem;">
+          <img src="./image/ipl-chicken-biryani.webp" height="250px" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title fw-bold text-capitalize"> ipl chicken biryani </h5>
+            <p class="card-text"> <i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star"
+                style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i
+                class="fa-solid fa-star" style="color: #FFD43B;"></i> <i class="fa-solid fa-star-half"
+                style="color: #FFD43B;"></i></p>
+            <span class="price  ms-3 ">₹249.00</span>
+            <a href="./order.html" class="btn btn-dark ms-5  text-capitalize btn-rounded fw-bold">order now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col  d-flex justify-content-center">
+        <div class="card mb-4 mt-3 " style="width: 20rem;">
+          <img src="./image/chicken-kabab-biryani.webp" height="250px" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title fw-bold text-capitalize">chicken kabab biryani </h5>
+            <p class="card-text"> <i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star"
+                style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i
+                class="fa-solid fa-star" style="color: #FFD43B;"></i> <i class="fa-solid fa-star-half"
+                style="color: #FFD43B;"></i></p>
+            <span class="price  ms-3 ">₹249.00</span>
+            <a href="./order.html" class="btn btn-dark ms-5  text-capitalize btn-rounded fw-bold">order now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col  d-flex justify-content-center">
+        <div class="card mb-4 mt-3 " style="width: 20rem;">
+          <img src="./image/leg-biryani.webp" height="250px" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title fw-bold text-capitalize"> bucket chicken biryani </h5>
+            <p class="card-text"> <i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star"
+                style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i
+                class="fa-solid fa-star" style="color: #FFD43B;"></i> <i class="fa-solid fa-star-half"
+                style="color: #FFD43B;"></i></p>
+            <span class="price  ms-3 ">₹249.00</span>
+            <a href="./order.html" class="btn btn-dark ms-5  text-capitalize btn-rounded fw-bold">order now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col  d-flex justify-content-center">
+        <div class="card mb-4 mt-3 " style="width: 20rem;">
+          <img src="./image/paneer-biryani.webp" height="250px" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title fw-bold text-capitalize">panner biryani </h5>
+            <p class="card-text"> <i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star"
+                style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i
+                class="fa-solid fa-star" style="color: #FFD43B;"></i> <i class="fa-solid fa-star-half"
+                style="color: #FFD43B;"></i></p>
+            <span class="price  ms-3 ">₹249.00</span>
+            <a href="./order.html" class="btn btn-dark ms-5  text-capitalize btn-rounded fw-bold">order now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col  d-flex justify-content-center">
+        <div class="card mb-4 mt-3 " style="width: 20rem;">
+          <img src="./image/chicken-biryani-boneless-family.webp" height="250px" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title fw-bold text-capitalize">chicken biryani </h5>
+            <p class="card-text"> <i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star"
+                style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i
+                class="fa-solid fa-star" style="color: #FFD43B;"></i> <i class="fa-solid fa-star-half"
+                style="color: #FFD43B;"></i></p>
+            <span class="price  ms-3 ">₹249.00</span>
+            <a href="./order.html" class="btn btn-dark ms-5  text-capitalize btn-rounded fw-bold">order now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col  d-flex justify-content-center">
+        <div class="card mb-4 mt-3 " style="width: 20rem;">
+          <img src="./image/chicken-65-biryani.webp" height="250px" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title fw-bold text-capitalize">chicken biryani with-65 </h5>
+            <p class="card-text"> <i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star"
+                style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i
+                class="fa-solid fa-star" style="color: #FFD43B;"></i> <i class="fa-solid fa-star-half"
+                style="color: #FFD43B;"></i></p>
+            <span class="price  ms-3 ">₹249.00</span>
+            <a href="./order.html" class="btn btn-dark ms-5  text-capitalize btn-rounded fw-bold">order now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col  d-flex justify-content-center">
+        <div class="card mb-4 mt-3 " style="width: 20rem;">
+          <img src="./image/chicken-leg-piece-biryani.webp" height="250px" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title fw-bold text-capitalize">chicken biryani with leg pices </h5>
+            <p class="card-text"> <i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star"
+                style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i
+                class="fa-solid fa-star" style="color: #FFD43B;"></i> <i class="fa-solid fa-star-half"
+                style="color: #FFD43B;"></i></p>
+            <span class="price  ms-3 ">₹249.00</span>
+            <a href="./order.html" class="btn btn-dark ms-5  text-capitalize btn-rounded fw-bold">order now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col  d-flex justify-content-center">
+        <div class="card mb-4 mt-3 " style="width: 20rem;">
+          <img src="./image/ipl-chicken-biryani.webp" height="250px" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title fw-bold text-capitalize"> ipl chicken biryani</h5>
+            <p class="card-text"> <i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star"
+                style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i
+                class="fa-solid fa-star" style="color: #FFD43B;"></i> <i class="fa-solid fa-star-half"
+                style="color: #FFD43B;"></i></p>
+            <span class="price  ms-3 ">₹249.00</span>
+            <a href="./order.html" class="btn btn-dark ms-5  text-capitalize btn-rounded fw-bold">order now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col  d-flex justify-content-center">
+        <div class="card mb-4 mt-3 " style="width: 20rem;">
+          <img src="./image/chicken-kabab-biryani.webp" height="250px" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title fw-bold text-capitalize">chicken kabab biryani </h5>
+            <p class="card-text"> <i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star"
+                style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i
+                class="fa-solid fa-star" style="color: #FFD43B;"></i> <i class="fa-solid fa-star-half"
+                style="color: #FFD43B;"></i></p>
+            <span class="price  ms-3 ">₹249.00</span>
+            <a href="./order.html" class="btn btn-dark ms-5  text-capitalize btn-rounded fw-bold">order now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col  d-flex justify-content-center">
+        <div class="card mb-4 mt-3 " style="width: 20rem;">
+          <img src="./image/chicken-biryani-boneless-family.webp" height="250px" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title fw-bold text-capitalize">chicken biryani </h5>
+            <p class="card-text"> <i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star"
+                style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i
+                class="fa-solid fa-star" style="color: #FFD43B;"></i> <i class="fa-solid fa-star-half"
+                style="color: #FFD43B;"></i></p>
+            <span class="price  ms-3 ">₹249.00</span>
+            <a href="./order.html" class="btn btn-dark ms-5  text-capitalize btn-rounded fw-bold">order now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col  d-flex justify-content-center">
+        <div class="card mb-4 mt-3 " style="width: 20rem;">
+          <img src="./image/chicken-65-biryani.webp" height="250px" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title fw-bold text-capitalize">chicken biryani with leg pices </h5>
+            <p class="card-text"> <i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star"
+                style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i
+                class="fa-solid fa-star" style="color: #FFD43B;"></i> <i class="fa-solid fa-star-half"
+                style="color: #FFD43B;"></i></p>
+            <span class="price  ms-3 ">₹249.00</span>
+            <a href="./order.html" class="btn btn-dark ms-5  text-capitalize btn-rounded fw-bold">order now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- about -->
+
+  <section id="about">
+    <div class="container pb-3 ">
+      <h1 class=" text-center mt-5 pt-2 text-danger text-white">ABOUT US</h1>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-12 mt-5 mb-5 ">
+          <img src="./image/ab2.jpeg" class="img-fluid" style="height: 430px;" alt="">
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6  col-12 mt-5 mb-5">
+          <h1>ABOUT US </h1>
+          <div class="abov  fs-5 fst-italic">
+            <p>nemo quidem, officia corporis alias at exercitationem facere repudiandae eaque praesentium nihil
+              quibusdam voluptates laudantium fugit unde sunt quaerat? Ab labore asperiores est explicabo nisi tempore,
+              sed necessitatibus corporis ipsa eius obcaecati maiores officiis quas sit eum totam? Quo aliquam porro
+              alias nesciunt doloremque eum maxime ab enim consequuntur quaerat voluptatum harum ex incidunt modi
+              mollitia tempora ducimus cum, perferendis officia? Accusamus similique, reiciendis eius sequi velit
+              ducimus dolorum nihil facilis tempore praesentium eligendi earum. Quae temporibus dicta molestias
+              consequuntur, voluptatibus architecto commodi, omnis harum, molestiae nostrum esse!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- menu -->
+
+  <section class="container-fluid my-4  pt-4 pb-5 menu">
+    <div class="row align-items-center">
+      <!-- Left Column - Text -->
+      <div class="col-md-6">
+        <h1 class="text-white text-capitalize text-center">our menu</h1>
+        <p class="text-white text-center"> consectetur adipisicing elit. Quos excepturi consectetur nesciunt ipsum quia
+          quod.
+          Asperiores neque est id nemo inventore expedita. Ex alias molestiae deleniti, vel quis dolor atque cumque
+          doloremque dolorum voluptates, exercitationem ab quam odit eveniet incidunt ullam sed dicta non. Dolorem vitae
+          animi dolorum eius ipsa repellendus, exercitationem necessitatibus</p>
+      </div>
+
+      <!-- Right Column - Images (2 rows, 2 images per row) -->
+      <div class="col-md-6">
+        <div class="row mb-2">
+          <div class="col-6">
+            <img src="./image/chettinadu-milagu-nalli-chops-kulambu-300x200.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-6">
+            <img src="./image/moru-moru-stick-chicken-300x200.jpg" class="img-fluid" alt="">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <img src="./image/chettinadu-milagu-nalli-chops-kulambu-300x200.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-6">
+            <img src="./image/moru-moru-stick-chicken-300x200.jpg" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- location -->
+  <section class="container-fluid locaback pb-3 mt-5 mb-5">
+    <div class="row">
+      <div class="col-lg-6 col-12">
+        <h1 class=" text-center fst-italic text-capitalize discover text-white">discover location</h1>
+        <p
+          class="border border-top-0 border-start-0 border-end-0 border-white border-2 w-25 outlet fw-bold text-white ">
+          view our outlets</p>
+        <iframe class="location"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62615.136057144955!2d78.09186275064985!3d11.228565113334577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3babce5e3f22014f%3A0xa0ab89ef32c34a77!2sNamakkal%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1744467815397!5m2!1sen!2sin"
+          width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      </div>
+      <div class="col-lg-6 col-12">
+        <div class="row">
+          <div class="col">
+            <img src="./image/loca.webp" class="img-fluid mb-2   " style="width: 600px;" alt="">
+            <img src="./image/loca2.jpg" class="img-fluid " style="width: 600px;" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- footer -->
+ <section class="container-fluid  bg-dark text-white   mt-2">
+  <div class="row">
+    <div class="col pt-4  ms-5 ">
+      <h1 class="text-capitalize  fst-italic fs-3">useful links</h1>
+      <p class="text-capitalize">about us</p>
+      <p class="text-capitalize">loyality program</p>
+      <p class="text-capitalize">order now</p>
+      <p class="text-capitalize">media</p>
+      <p class="text-capitalize">contact us</p>
+      <p class="text-capitalize">un-subscribe</p>
+    </div>
+    <div class="col pt-4">
+      <h1  class="text-capitalize fs-3">more info</h1>
+      <p class="text-capitalize" >blog</p>
+      <p class="text-capitalize">terms and conditions</p>
+      <h1 class="text-capitalize fst-italic fs-3">follow along</h1>
+      <img src="./image/icons8-facebook-logo-50.png" class="img-fluid text-white" alt="">
+      <img src="./image/icons8-twitter-bird-50.png" class="img-fluid" alt="">
+      <img src="./image/icons8-instagram-logo-50.png" class="img-fluid" alt="">
+
+    </div>
+    <div class="col pt-4">
+      <h1 class="text-capitalize fst-italic fs-3">location</h1>
+      <p class="text-capitalize">raj biryani hotel pvt ltd.,</p>
+      <p class="text-capitalize">no.25/50 anjaner  street,</p>
+      <p class="text-capitalize">ramky house, salem road,</p>
+      <p class="text-capitalize">kalyan nagar</p>
+      <p class="text-capitalize">namakkal tamil nadu</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-7 mt-5 text-center">
+      <p>&copy;2025 Pearltri Foods Pvt Ltd. All rights reserved. privacy policy | terms and conditions</p>
+    </div>
+  </div>
+</section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

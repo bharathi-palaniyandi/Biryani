@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.c-item{
+    height: 580px;
+}
+
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.4);
+}  
+footer{
+    background-color: black !important;
+    height: 70px;
+    color: white;
+    padding: 1px !important;
+    font-weight: 500;
+}
+.c1{
+    border-radius: 30px;
+    width: 60%;
+    margin-left: 4%;
+    
+}
+.price {
+   font-size: 19px;
+   font-weight: 500 !important;
+}
+.card{
+    border: none !important;
+    box-shadow: 10px 10px 15px rgb(143, 140, 140) ;
+}
+.above h2{
+    text-transform: uppercase;
+}
+.above p{
+    width: 500px;
+    font-size: 20px;
+}
+.aboveimg img{
+    height: 400px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 20%;
+    margin-left: 10px;
+}
+#about{
+    background-image: url(./image/abo22.jpg);
+    background-size: cover;
+    object-fit: contain;
+    color: white;
+}.back{
+    background-color: rgb(252, 252, 252);
+}
+.menu{
+    background-image: url(./image/menu3.jpg);
+    background-size: cover;
+}
+.textp{
+    width: 300px;
+    text-align: center;
+    margin-left: 150px;
+}
+.location{
+    margin-top: -50px;
+    margin-left: 70px;
+    width:500px;
+    height: 500px;
+}
+.outlet{
+    margin-left: 40%;
+    text-transform: capitalize;
+
+}
+.discover{
+    margin-top: 80px;
+}
+.locaback{
+    background-image: url(./image/backk.jpg);
+}
+body{
+    background-image: url();
+    background-size: cover;
+    object-fit: cover;
+}
+.card2{
+    border-radius: 50% !important;
+}
+/* location */
+.carimg{
+    margin-left: 38%;
+}
+/* contact */
+.c-pic{
+    height: 550px !important ;
+    width: 100%;
+}.input-group{
+    width: 60% !important;
+     margin-left: 20%;    
+}
+.btn-type{
+    margin-left: 20%;    
+}
+.last{
+    display: flex;
+    justify-content: space-around !important;
+    flex-wrap: wrap;
+    gap: 90px;
+}
+
+
+@media(max-width:768px){
+    .textp{
+        width: 300px;
+        text-align: center;
+        margin-left: 70px;
+    }
+    .location{
+        margin-top:-200px;
+        margin-left: 20px;
+        width: 300px;
+        height: 400px;
+        padding-bottom: 20px;
+    }
+    .carimg{
+        margin-left: 1%;
+    }
+    .foot{
+        width: 300px !important;
+        margin-left: 40px !important;
+    }
+    
+}
+
+
+
+
+

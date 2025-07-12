@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Biryani Order Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #fffaf0;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1603898037225-dabd7fbd6c94') center/cover no-repeat;
+      height: 300px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-shadow: 2px 2px 8px #000;
+    }
+    .menu-card img {
+      height: 200px;
+      object-fit: cover;
+    }
+    footer {
+      background-color: #343a40;
+      color: white;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+    <div class="container">
+      <a class="navbar-brand text-capitalize fs-3 fw-bold fst-italic" href="index.html">raj biryani</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <h1>Order Your Favorite Biryani!</h1>
+  </div>
+
+  <!-- Menu Section -->
+  <div class="container my-5">
+    <h2 class="text-center mb-4">Our Biryani Menu</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card menu-card">
+          <img src="./image/thalappakatti-chicken-biriyani--300x200.jpg" class="card-img-top" alt="Chicken Biryani">
+          <div class="card-body">
+            <h5 class="card-title">Chicken Biryani</h5>
+            <p class="card-text">Spicy and flavorful chicken biryani made with basmati rice and traditional spices.</p>
+            <p class="text-success fw-bold">₹250</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card menu-card">
+          <img src="./image/chettinadu-milagu-nalli-chops-kulambu-300x200.jpg" class="card-img-top" alt="Mutton Biryani">
+          <div class="card-body">
+            <h5 class="card-title">Mutton Biryani</h5>
+            <p class="card-text">Tender mutton pieces cooked in aromatic spices and layered with rice.</p>
+            <p class="text-success fw-bold">₹300</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card menu-card">
+          <img src="./image/veg.jpg" class="card-img-top" alt="Veg Biryani">
+          <div class="card-body">
+            <h5 class="card-title">Veg Biryani</h5>
+            <p class="card-text">A delightful blend of vegetables and fragrant spices cooked with rice.</p>
+            <p class="text-success fw-bold">₹180</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Order Form -->
+  <div class="container my-5">
+    <h2 class="text-center mb-4">Place Your Order</h2>
+    <form class="row g-3">
+      <div class="col-md-6">
+        <label for="name" class="form-label">Full Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Your name" required>
+      </div>
+      <div class="col-md-6">
+        <label for="phone" class="form-label">Phone Number</label>
+        <input type="tel" class="form-control" id="phone" placeholder="Mobile number" required>
+      </div>
+      <div class="col-md-12">
+        <label for="address" class="form-label">Delivery Address</label>
+        <textarea class="form-control" id="address" rows="3" placeholder="Full delivery address" required></textarea>
+      </div>
+      <div class="col-md-6">
+        <label for="biryaniType" class="form-label">Biryani Type</label>
+        <select id="biryaniType" class="form-select" required>
+          <option selected disabled>Choose...</option>
+          <option>Chicken Biryani</option>
+          <option>Mutton Biryani</option>
+          <option>Veg Biryani</option>
+        </select>
+      </div>
+      <div class="col-md-6">
+        <label for="quantity" class="form-label">Quantity</label>
+        <input type="number" class="form-control" id="quantity" min="1" value="1" required>
+      </div>
+      <div class="col-12 text-center">
+        <button type="submit" class="btn btn-primary px-5">Place Order</button>
+      </div>
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <footer class="text-center">
+    <p class="mb-0">© 2025  Raj Biryani. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
